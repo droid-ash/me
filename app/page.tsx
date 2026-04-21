@@ -106,8 +106,13 @@ const highlights: Highlight[] = [
     label: "#1 on Android World",
     description: (
       <>
-        FinalRun topped Google DeepMind&apos;s Android World leaderboard for
-        autonomous mobile agents, ahead of DeepSeek, Alibaba, and ByteDance.
+        FinalRun tops Google DeepMind&apos;s Android World leaderboard for
+        autonomous mobile agents with a{" "}
+        <InlineLink href="https://finalrun.app/benchmark">
+          97.4% success rate
+        </InlineLink>{" "}
+        (113 / 116 tasks), ahead of AutoDevice (94.8%), DroidRun (91.4%), and
+        mobile-use (91.4%).
       </>
     ),
   },
