@@ -79,6 +79,13 @@ type Press = {
 
 const press: Press[] = [
   {
+    outlet: "Android Weekly #723 · Libraries & Code",
+    title:
+      "FinalRun agent — An AI-driven CLI that tests Android and iOS apps using plain-English YAML specs",
+    date: "Apr 2026",
+    url: "https://androidweekly.net/issues/issue-723",
+  },
+  {
     outlet: "Hacker News (Show HN)",
     title:
       "Show HN: FinalRun — Spec-driven testing using English and vision for mobile apps",
