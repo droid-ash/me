@@ -142,9 +142,9 @@ const highlights: Highlight[] = [
   },
   {
     year: "2023",
-    label: "Patent",
+    label: "Patent (pending)",
     description:
-      "Co-inventor, \"System and Method for Element Detection in Mobile Devices\" (PLW Ref 10875-09977 US) — the technique behind robust mobile element detection.",
+      "Co-inventor on a pending U.S. patent application, \"System and Method for Element Detection in Mobile Devices\" (PLW Ref 10875-09977 US) — the technique behind robust mobile element detection.",
   },
   {
     year: "2022",
