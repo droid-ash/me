@@ -201,9 +201,7 @@ export default function Home() {
             >
               FinalRun
             </a>
-            , an AI QA agent for mobile apps. Previously shipped enterprise
-            Android SDKs at Whatfix (and at Leap, before it was acquired). Eight
-            years of mobile engineering across startups and enterprise rollouts.
+            , an AI QA agent for mobile apps.
           </p>
         </header>
 
