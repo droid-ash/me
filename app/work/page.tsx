@@ -82,8 +82,14 @@ export default function WorkPage() {
       </p>
       <ol className="mt-10 space-y-10">
         {roles.map((role) => (
-          <li key={`${role.company}-${role.period}`}>
-            <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">
+          <li
+            key={`${role.company}-${role.period}`}
+            className="flex flex-col gap-1 sm:flex-row sm:gap-6"
+          >
+            <span className="flex-none font-mono text-xs tabular-nums whitespace-nowrap text-neutral-500 sm:w-36 sm:pt-1">
+              {role.period}
+            </span>
+            <div className="min-w-0">
               <h2 className="font-medium text-neutral-900 dark:text-neutral-100">
                 {role.title}
                 <span className="text-neutral-400 dark:text-neutral-500">
@@ -96,18 +102,12 @@ export default function WorkPage() {
                   <span>{role.company}</span>
                 )}
               </h2>
-              <span className="font-mono text-xs tabular-nums text-neutral-500">
-                {role.period}
-              </span>
+              <ul className="mt-2 space-y-2">
+                {role.bullets.map((bullet, i) => (
+                  <li key={i}>{bullet}</li>
+                ))}
+              </ul>
             </div>
-            <ul className="mt-3 space-y-2">
-              {role.bullets.map((bullet, i) => (
-                <li key={i} className="flex gap-3">
-                  <span className="mt-[0.7em] h-px w-3 flex-none bg-neutral-300 dark:bg-neutral-700" />
-                  <span>{bullet}</span>
-                </li>
-              ))}
-            </ul>
           </li>
         ))}
       </ol>
