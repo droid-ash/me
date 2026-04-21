@@ -79,6 +79,13 @@ type Press = {
 
 const press: Press[] = [
   {
+    outlet: "Hacker News (Show HN)",
+    title:
+      "Show HN: FinalRun — Spec-driven testing using English and vision for mobile apps",
+    date: "Apr 2026",
+    url: "https://news.ycombinator.com/item?id=47676044",
+  },
+  {
     outlet: "CXO Today",
     title:
       "2-person startup FinalRun sets new global record as top autonomous mobile AI agent, surpassing DeepSeek, Alibaba, and ByteDance",
